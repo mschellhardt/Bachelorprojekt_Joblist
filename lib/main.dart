@@ -17,8 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
-      //home: JobListSearchScreen(),
-      home: JobListTopicScreen(),
+      home: JobListSearchScreen(),
+      //home: JobListTopicScreen(),
     );
   }
 }
