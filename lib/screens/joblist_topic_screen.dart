@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 
 class JobListTopicScreen extends StatelessWidget {
@@ -7,7 +5,6 @@ class JobListTopicScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const _colorGrey = Color.fromRGBO(129, 129, 129, 1);
     const _colorRed = Color.fromRGBO(177, 72, 72, 1);
     const _colorBlue = Color.fromRGBO(86, 126, 155, 1);
     const _colorGreen = Color.fromRGBO(96, 158, 119, 1);
@@ -117,7 +114,6 @@ class JobListTopicScreen extends StatelessWidget {
 }
 
 Widget generateSingleJobCard(List<Color> _jobColors) {
-  final _random = new Random();
   Color _color = _jobColors[0];
 
   return (Center(
