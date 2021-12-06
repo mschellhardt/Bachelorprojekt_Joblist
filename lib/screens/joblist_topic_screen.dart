@@ -19,7 +19,7 @@ class JobListTopicScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: _colorBlue,
-        title: Text('Sozials & Hauswirtschaft'),
+        title: Text('Soziales & Hauswirtschaft'),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
